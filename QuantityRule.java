@@ -35,7 +35,7 @@ public class QuantityRule extends BaseRule {
 		/*
 		 * Here for every check, I have assigned a different error code.
 		 * I am assuming that the exchange will send different error code for each check.
-		 * For price related checks say the error code starts with 201.
+		 * For quantity related checks say the error code starts with 301.
 		 * Here error codes are hard coded. Nut you can read these info from a constant file.
 		 */
 		// Negative quantity check
